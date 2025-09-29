@@ -22,7 +22,7 @@ def main():
     # Set Seaborn style for better visuals
     sns.set(style="whitegrid", palette="Set2")
 
-    # ------------------ Scatter Plot ------------------
+ 
     plt.figure(figsize=(8, 6))
     sns.scatterplot(
         data=tips,
